@@ -2,12 +2,12 @@
 
 每周更新中国大陆高精度IP离线库，部分IP精确到区
 
-下载地址：[Github](https://github.com/ljxi/GeoCN/releases/download/Latest/GeoCN.mmdb) [jsDelivr](https://cdn.jsdelivr.net/gh/ljxi/GeoCN@releases/download/Latest/GeoCN.mmdb)
+下载地址：[GeoCN.mmdb](https://github.com/ljxi/GeoCN/releases/download/Latest/GeoCN.mmdb) 
 
 ### 数据来源
 
 1. 收集互联网上公开免费的高精度API
-2. 扫描MaxMind GeoLite2-City得到大陆地区IP段
+2. 扫描[MaxMind GeoLite2-City](https://github.com/P3TERX/GeoLite.mmdb)得到大陆地区IP段
 3. 使用深度优先搜索算法获取IP数据
 4. 整理IP数据，生成mmdb文件
 
