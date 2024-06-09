@@ -1,8 +1,16 @@
 # GeoCN
 
-每周更新中国大陆高精度IP离线库，部分IP精确到区
+每周更新中国大陆高精度IPV4+IPV6离线库，部分IP精确到区
 
-下载地址：[GeoCN.mmdb](https://github.com/ljxi/GeoCN/releases/download/Latest/GeoCN.mmdb) 
+下载地址：[GeoCN.mmdb](https://github.com/ljxi/GeoCN/releases/download/Latest/GeoCN.mmdb)
+
+### Docker部署
+
+docker run -d -p 127.0.0.1:8000:80 netart/ipapi
+
+海外数据来着MaxMind，每天会自动拉取数据库
+
+
 
 ### 数据来源
 
@@ -20,6 +28,4 @@
 ### 声明
 
 本项目数据来源为公开免费的IP接口，如果本项目发布的数据中包含了您的商用数据，请与我联系！
-
-
 
