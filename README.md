@@ -6,7 +6,7 @@
 
 ### Docker部署
 
-docker run -d -p 8000:80 netart/ipapi
+`docker run -d -p 8000:80 netart/ipapi`
 
 海外数据来着MaxMind，每天会自动拉取数据库
 
